@@ -24,6 +24,8 @@
 					<div class="id_input_box">
 						<input class="id_input" name="memberId">
 					</div>
+					<span class="id_input_can">사용 가능한 아이디입니다.</span>
+					<span class="id_input_cannot">아이디가 이미 존재합니다.</span>
 				</div>
 				<div class="pw_wrap">
 					<div class="pw_name">비밀번호</div>
@@ -96,6 +98,29 @@
 			$("#join_form").submit();
 		});
 	});
+	
+	//아이디 중복검사
+	$('.id_input').on("propertychange change keyup paste input", function(){
+		
+		var memberIdVar = $('.id_input').val();			// .id_input에 입력되는 값
+		var dataVar = {memberId : memberIdVar}			// '컨트롤에 넘길 데이터 이름' : '데이터(.id_input에 입력되는 값)'
+		
+		$.ajax({
+			type : "post",
+			url : "/member/memberIdChk",
+			data : dataVar,
+			success : function(result){
+				if(result != 'fail'){
+					$('.id_input_can').css("display","inline-block");
+					$('.id_input_cannot').css("display", "none");				
+				} else {
+					$('.id_input_cannot').css("display","inline-block");
+					$('.id_input_can').css("display", "none");				
+				}
+			}// success 종료 
+		}); // ajax 종료	
+
+	});// function 종료
 
 </script>
 

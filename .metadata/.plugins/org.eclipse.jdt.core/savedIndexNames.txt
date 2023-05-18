@@ -1,7 +1,6 @@
 INDEX VERSION 1.131+C:\Users\brkim\Documents\workspace-sts-3.9.18.RELEASE\.metadata\.plugins\org.eclipse.jdt.core
 1227956114.index
 1194305562.index
-2554631833.index
 4169347825.index
 1250611729.index
 336645764.index
