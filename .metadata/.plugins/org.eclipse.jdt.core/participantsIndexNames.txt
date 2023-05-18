@@ -1,3 +1,5 @@
 INDEX VERSION 1.131
 C:\Users\brkim\Documents\workspace-sts-3.9.18.RELEASE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3599975053.index
 \sampleProject\src\main\java
+C:\Users\brkim\Documents\workspace-sts-3.9.18.RELEASE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2264374454.index
+\sampleProject\src\main\java
