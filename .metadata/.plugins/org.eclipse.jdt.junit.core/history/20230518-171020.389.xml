@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="com.sample.controller" project="sampleProject" tests="3" started="3" failures="0" errors="0" ignored="0">
-  <testsuite name="com.sample.controller.MyBatisTest" time="1.472">
-    <testcase name="testFactory" classname="com.sample.controller.MyBatisTest" time="1.462"/>
-    <testcase name="testSession" classname="com.sample.controller.MyBatisTest" time="0.009"/>
-  </testsuite>
-  <testsuite name="com.sample.controller.MySQLConnectionTest" time="0.016">
-    <testcase name="testConnection" classname="com.sample.controller.MySQLConnectionTest" time="0.016"/>
-  </testsuite>
-</testrun>

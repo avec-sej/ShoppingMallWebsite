@@ -12,7 +12,7 @@
 		
 		<div class="wrap">
 			<div class="logo_wrap">
-				<span>Book Mall</span>
+				<span>kitsch:) Shopping Mall</span>
 			</div>
 			<div class="login_wrap"> 
 				<div class="id_wrap">
@@ -26,7 +26,7 @@
 					</div>
 				</div>
 				<div class="login_button_wrap">
-					<input type="button" class="login_button" value="로그인">
+					<input type="button" class="login_button" value="Login">
 				</div>			
 			</div>
 			

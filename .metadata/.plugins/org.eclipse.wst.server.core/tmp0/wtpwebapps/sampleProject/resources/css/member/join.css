@@ -261,3 +261,35 @@
 	color : red;
 	display : none;
 }
+
+
+/* validation */
+.id_required{
+	color : red;
+	display: none;
+}
+.pw_required{
+	color : red;
+	display: none;
+}
+.name_required{
+	color : red;
+	display: none;
+}
+.mail_required{
+	color : red;
+	display: none;
+}
+.addr_required{
+	color : red;
+	display: none;
+}
+
+.pwck_input_match{
+	color : green;
+	display : none;
+}
+.pwck_input_notMatch{
+	color : red;
+	display : none;
+}

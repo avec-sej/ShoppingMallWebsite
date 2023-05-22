@@ -5,12 +5,12 @@
 <mapper namespace="com.sample.mapper.MemberMapper">
   	<!-- Join us -->
   	<insert id="memberJoin">
-  		insert into book_member values(#{memberId}, #{memberPw}, #{memberName}, #{memberMail}, #{memberAddr1}, #{memberAddr2}, #{memberAddr3}, 0, sysdate(), 100000, 5000 )
+  		insert into fashion_member values(#{memberId}, #{memberPw}, #{memberName}, #{memberMail}, #{memberAddr1}, #{memberAddr2}, #{memberAddr3}, 0, sysdate(), 100000, 5000 )
   	</insert>
   	
   	<!-- Id DoubleCheck -->
   	<select id="idCheck" resultType="int">
-  		select count(*) from book_member where memberId = #{memberId}	
+  		select count(*) from fashion_member where memberId = #{memberId}	
   	</select>
   	
 </mapper>
